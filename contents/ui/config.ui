@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KWin::SelectiveVirtualDesktopsConfigForm</class>
+ <widget class="QWidget" name="KWin::SelectiveVirtualDesktopsConfigForm">
+  <property name="windowTitle">
+   <string>Selective Virtual Desktops</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+  <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Enable Virtual Desktop for these displays:</string>
+     </property>
+    </widget>
+   </item>
+
+   <item>
+    <widget class="QLineEdit" name="kcfg_enabledDisplays">
+      <property name="text">
+        <string></string>
+      </property>
+      <property name="placeholderText">
+        <string>Comma separated list of displays...</string>
+      </property>
+    </widget>
+   </item>
+
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,27 @@
+[Desktop Entry]
+Name=Selective Virtual Desktops
+Comment=Enable virtual desktops only on named displays. IMPORTANT: See github repo if there is no configuration button!
+Icon=preferences-desktop-virtual
+
+X-KDE-PluginInfo-Name=selective-virtual-desktops
+X-KDE-PluginKeyword=selective-virtual-desktops
+X-KDE-ParentComponents=selective-virtual-desktops
+
+X-KDE-PluginInfo-Author=Thomas Hellström
+X-KDE-PluginInfo-Email=rel@xed.se
+X-KDE-PluginInfo-Website=https://github.com/My-KWin-Scripts/selective-virtual-desktops
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-License=GPLv3
+
+Encoding=UTF-8
+
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/main.js
+
+Type=Service
+
+X-KDE-ServiceTypes=KWin/Script,KCModule
+X-KDE-Library=kwin/effects/configs/kcm_kwin4_genericscripted
+
+X-KDE-PluginInfo-EnabledByDefault=true
+
