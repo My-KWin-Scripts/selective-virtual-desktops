@@ -1,7 +1,7 @@
 Selective Virtual Desktops
 ==========================
 
-This script emulates having Virtual Desktops enabled __only__ on named displays. On all other displays, the windows will be shown on all desktops, effectively emulatating not having any Virtiual Desktops for these displays.
+This script emulates having Virtual Desktops enabled __only__ on named displays. On all other displays, the windows will be shown on all desktops, effectively emulatating not having any Virtual Desktops for these displays.
 
 If all you need is to enable Virtual Desktops __ONLY__ on primary monitor, and don't want to configure __anything__, I recommend simply using [Virtual Desktops Only On Primary](https://github.com/wsdfhjxc/kwin-scripts/tree/master/virtual-desktops-only-on-primary)
 
@@ -30,5 +30,5 @@ ln -fs ~/.local/share/kwin/scripts/selective-virtual-desktops/metadata.desktop ~
 Copyright
 =========
 - License: [Gnu General Public License Version 3](LICENSE.md)
-- Copyright &copy; 2001 - Thomas Hellström <rel@xed.se>
+- Copyright &copy; 2021 - Thomas Hellström <rel@xed.se>
 
