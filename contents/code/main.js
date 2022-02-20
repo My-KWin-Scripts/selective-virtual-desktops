@@ -22,14 +22,6 @@ function handleWindow(client) {
     return;
   }
 
-  // if (!isDisplayEnabled(client.screen)) {
-  //   client.desktop = -1;
-  //   print("Window " + client.windowId + " has been pinned");
-  // } else {
-  //   client.desktop = workspace.currentDesktop;
-  //   print("Window " + client.windowId + " has been unpinned");
-  // }
-
   /* Was window previously pinned... */
   if (client.desktop == -1) {
 
