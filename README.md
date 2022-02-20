@@ -30,5 +30,5 @@ ln -fs ~/.local/share/kwin/scripts/selective-virtual-desktops/metadata.desktop ~
 Copyright
 =========
 - License: [Gnu General Public License Version 3](LICENSE.md)
-- Copyright &copy; 2021 - Thomas Hellström <rel@xed.se>
+- Copyright &copy; 2021-2022 - Thomas Hellström <rel@xed.se>
 
