@@ -9,7 +9,7 @@ For many other use cases, this script will let you enable Virtual Desktops on mo
 
 Configuration
 =============
-Configuration is very simple. Just add a comma separated list of displays that should be enebled for Virtual Desktops.
+Configuration is very simple. Just add a comma separated list of displays that should be enabled for Virtual Desktops.
 
 ![Configuration](assets/images/config.png)
 
@@ -29,6 +29,6 @@ ln -fs ~/.local/share/kwin/scripts/selective-virtual-desktops/metadata.desktop ~
 
 Copyright
 =========
-- License: [Gnu General Public License Version 3](LICENSE.md)
+- License: [Gnu General Public License Version 3](LICENSE)
 - Copyright &copy; 2021-2022 - Thomas Hellström <rel@xed.se>
 
