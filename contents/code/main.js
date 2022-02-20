@@ -15,30 +15,30 @@ function isDisplayEnabled(index) {
  * Handle pinning and unpinning of windows
  * ========================================================================= */
 function handleWindow(client) {
-  const client = client || this;
+  const thisClient = client || this;
 
   /* Skip these windows */
-  if (client.desktopWindow || client.dock || (!client.normalWindow && client.skipTaskbar)) {
+  if (thisClient.desktopWindow || thisClient.dock || (!thisClient.normalWindow && thisClient.skipTaskbar)) {
     return;
   }
 
   /* Was window previously pinned... */
-  if (client.desktop == -1) {
+  if (thisClient.desktop == -1) {
 
     /* ...and was moved to an screen with virtual desktops? */
-    if (isDisplayEnabled(client.screen)) {
+    if (isDisplayEnabled(thisClient.screen)) {
 
       /* Then unpin it */
-      client.desktop = workspace.currentDesktop;
+      thisClient.desktop = workspace.currentDesktop;
     }
 
   } else {
 
     /* Was window previously unpinned, and moved to a screen without virtual desktops? */
-    if (!isDisplayEnabled(client.screen)) {
+    if (!isDisplayEnabled(thisClient.screen)) {
 
       /* Then pin it */
-      client.desktop = -1;
+      thisClient.desktop = -1;
     }
   }
 }
