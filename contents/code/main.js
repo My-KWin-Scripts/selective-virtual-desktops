@@ -15,13 +15,20 @@ function isDisplayEnabled(index) {
  * Handle pinning and unpinning of windows
  * ========================================================================= */
 function handleWindow(client) {
-  const window = client || this;
-
+  const client = client || this;
 
   /* Skip these windows */
   if (client.desktopWindow || client.dock || (!client.normalWindow && client.skipTaskbar)) {
     return;
   }
+
+  // if (!isDisplayEnabled(client.screen)) {
+  //   client.desktop = -1;
+  //   print("Window " + client.windowId + " has been pinned");
+  // } else {
+  //   client.desktop = workspace.currentDesktop;
+  //   print("Window " + client.windowId + " has been unpinned");
+  // }
 
   /* Was window previously pinned... */
   if (client.desktop == -1) {
