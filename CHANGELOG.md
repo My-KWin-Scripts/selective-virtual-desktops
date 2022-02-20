@@ -43,3 +43,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/).
 
 [1.0.3]: https://github.com/My-KWin-Scripts/selective-virtual-desktops/compare/1.0.2...1.0.3
 
+[1.0.4]: https://github.com/My-KWin-Scripts/selective-virtual-desktops/compare/1.0.4...1.0.4
+
