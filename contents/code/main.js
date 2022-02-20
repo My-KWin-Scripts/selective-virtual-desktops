@@ -95,14 +95,12 @@ function main() {
   /* Handle existing clients */
   workspace.clientList().forEach(function (client) {
     client.screenChanged.connect(client, handleWindow);
-    client.desktopChanged.connect(client, handleWindow);
     handleWindow(client)
   });
 
   /* Handle new windows */
   workspace.clientAdded.connect(function (client) {
     client.screenChanged.connect(client, handleWindow);
-    client.desktopChanged.connect(client, handleWindow);
     handleWindow(client)
   });
 }

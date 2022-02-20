@@ -10,7 +10,7 @@ X-KDE-ParentComponents=selective-virtual-desktops
 X-KDE-PluginInfo-Author=Thomas Hellström
 X-KDE-PluginInfo-Email=rel@xed.se
 X-KDE-PluginInfo-Website=https://github.com/My-KWin-Scripts/selective-virtual-desktops
-X-KDE-PluginInfo-Version=1.0.3
+X-KDE-PluginInfo-Version=1.0.4
 X-KDE-PluginInfo-License=GPLv3
 
 Encoding=UTF-8
